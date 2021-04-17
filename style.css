@@ -82,3 +82,102 @@ body {
     display: inline-block;
   }
   
+  .dominios {
+    display: flex;
+  }
+  
+  .dominios li {
+    list-style: none;
+    margin: 0 20px;
+  }
+  
+  span.punto {
+    color: #1776FF;
+    font-size: 24px;
+  }
+  
+  span.dominio {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  span.anio {
+    color: #999;
+    font-size: 14px;
+  }
+
+  /* SERVICES */
+  
+  #services {
+    padding-top: 120px;
+  }
+  
+  #services .contenedor {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #services .titular {
+    width: 49%;
+  }
+  
+  #services .service {
+    width: 25%;
+  	background-color: #ffffff;
+  	border-radius: 24px;
+  	box-shadow: 0px 90px 160px 0px rgba(0,0,0,0.1);
+  	padding: 20px 30px;
+  }
+
+	#services h2 {
+    font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 14px; 
+  color: #ff8f00;
+  letter-spacing: 1px;
+  }
+
+	#services h3 {
+    font-weight: 500;
+  font-size: 38px;
+  }
+  
+  #services .boton {
+    background: #2970fa;
+    padding: 15px 38px;
+  letter-spacing: 1px;
+  }
+
+	.service h4 {
+    font-size: 23px;
+    font-weight: normal;
+    font-family: 'Rubik';
+  }
+  
+  .service p {
+    color: #787878;
+		font-size: 15px;
+    line-height: 32px;
+  }
+
+	.service a {
+    color: #2970fa;
+    text-decoration: none;
+    font-family: 'Rubik';
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+
+	.contenedor-services-2 {
+    margin-top: 60px;
+  }
+  
+	.contenedor-services-2 #dos {
+    position: relative;
+    top: -250px;
+  }
+  
+	#services #uno {
+		margin-left: 152px;
+	} 
